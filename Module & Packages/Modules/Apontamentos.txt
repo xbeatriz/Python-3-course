@@ -1,0 +1,12 @@
+Python interativo é escrever python no terminal.
+
+Para dar inicio a isso, escrevemos "python" no terminal e este abre a parte interativa de python
+Depois podemos fazer tudo normal como fazemos no jupyter notebook ou como num ficheiro normal. Podemos dar imports, fazer prints, calculos, etc. 
+Por exemplo: 2+2, print('Hello world'), import math, help(math), para sair de documento clicar em Q. 
+
+
+No ficheiro utilidades - disponho de 3 funções diferentes. Depois abri o terminal da pasta em questão e fiz o comando python. 
+Depois transformei essas funções do ficheiro utilidades.py em módulos possiveis de usar com o comando: import utilidades
+Depois é so usar no terminal o comando: utilidades.nomeDaFunçao e ele fornece-me o que a função é utilizada no ficheiro e também cria uma pasta com os módulos.
+
+Posso fazer a mesma coisa num ficheiro novo. Por exemplo, no ficheiro app.py damos o import do ficheiro utilidades e utilizamos as funções do mesmo. 
