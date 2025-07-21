@@ -1,0 +1,4 @@
+Packages = é uma coleção de módulos 
+
+Todos os Packages precisam de ter um init.py - pacote raiz - inicializa o pacote e pode ter subpacote. 
+__init__.py 
