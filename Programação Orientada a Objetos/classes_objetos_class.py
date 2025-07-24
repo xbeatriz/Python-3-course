@@ -54,3 +54,11 @@ pc3 = Notebook('prata', 350)
 
 print(pc1, pc2, pc3)  # Imprime as instâncias dos notebooks
 
+class Computador2:
+    def __init__(proprio_objeto):
+        pass
+
+comp1 = Computador2()
+comp2 = Computador2()
+comp3 = Computador2()
+
