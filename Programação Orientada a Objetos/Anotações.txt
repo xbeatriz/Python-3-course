@@ -1,0 +1,34 @@
+- Programação Procedural ou estruturada
+aqui eu questiono-me mais sobre o que tenho de fazer
+
+- Fazer um bolo
+anotar_lista_de_ingredientes()
+ir_para_o_mercado()
+comprar_ingredientes()
+misturar_ingredientes()
+colocar_no_forno()
+esperar_determinado_tempo()
+retirar_do_forno()
+
+Niveis de abstração => escondemos detalhes complexos e mostramos apenas o que é necessário para o uso de um objeto ou sistema. 
+É um dos pilares da POO, junto com encapsulamento, herança e polimorfismo.
+
+
+Programação Orientada a Objetos
+Aqui eu questiono-me o que eu preciso para poder fazer as coisas. 
+
+- Fazer um bolo
+class Forno: 
+    modelo, marca, cor, potência #atributos 
+    ligar(), desligar() #métodos
+
+class Tabuleiro: 
+    forma #atributos
+    receber_massa() #métodos
+
+CLASSES
+- são modelos
+- possuem dados (atributos)
+- métodos (funções dentro de uma classe)
+- usando classes, criamos objetos ou instâncias da classe
+
