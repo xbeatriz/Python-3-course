@@ -1,0 +1,13 @@
+Arquivos de texto:
+    - textos (plain text)
+    - XML
+    - JSON
+    - Códigos fonte
+Arquivos binários
+    - Códigos compilados
+    - Dados de aplicações
+    - Arquivos de mídia
+        - imagens 
+        - áudios
+        - vídeos
+    
