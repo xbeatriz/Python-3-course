@@ -1,0 +1,5 @@
+
+Ser dev é passar metade do tempo tentando entender código que você 
+escreveu semana passada, 
+e a outra metade explicando para o cliente que 
+só mudar uma coisinha' pode quebrar tudo.
