@@ -1,0 +1,1 @@
+# | => A|B ou B uma coisa ou outra
