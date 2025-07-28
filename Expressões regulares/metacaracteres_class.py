@@ -66,6 +66,27 @@ regex = '[a-zA-Z0-9$_\[\]]+' # parenteses retos
 texto = 'O preço é de [71$] palavras_junta.'
 encontrar(regex, texto, 'findall')
 
+# numero exato de cópias {m}
+regex = r'\d{5}[-.]?\d{4}' 
+texto = 'Telefones 99874-6854, 99843.5486, 965437213'
+encontrar(regex, texto, 'findall')
 
+# numero exato de cópias {m}
+regex = r'\d+[-.]?\d+' 
+texto = 'Telefones 99874-6854, 99843.5486, 965437213'
+encontrar(regex, texto, 'findall')
 
+# * de 0 a muitos
+regex = r'\d{5}.*?\d{4}' 
+texto = 'Telefones 99874-6854, 99843.5486, 965437213'
+encontrar(regex, texto, 'findall')
 
+regex = r'Dra?\.*' 
+texto = """
+Títulos
+Dr Gato
+Dr. Pato
+Dra.. Pata
+Dra Raposa
+"""
+encontrar(regex, texto, 'findall')
