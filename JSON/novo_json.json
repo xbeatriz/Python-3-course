@@ -1,0 +1,16 @@
+{
+  "dados": [
+    {
+      "usuario": "ana",
+      "altura": 1.59,
+      "email": null,
+      "ativado": false
+    },
+    {
+      "usuario": "pedro",
+      "altura": 1.81,
+      "email": "pedrinho@email.com",
+      "ativado": true
+    }
+  ]
+}
